@@ -1,0 +1,35 @@
+body{
+  padding: 10px;
+  margin: 5px;
+}
+
+.button {
+  text-align: center;
+  background-color: cadetblue;
+  border-radius: 25px;
+}
+
+.button>[type=button] {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.button>[type=button]:hover {
+  cursor: pointer;
+}
+
+.button>[type=button]:active {
+  transform: scale(1.1);
+}
+
+table{
+  border: 1px solid black;
+  width: 70%;
+  margin: 5% auto;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid cadetblue;
+}
